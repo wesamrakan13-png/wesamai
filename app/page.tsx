@@ -24,15 +24,10 @@ async function NewChatPage() {
   const modelIdFromCookie = cookieStore.get("chat-model");
   const id = generateUUID();
 
-  // تخصيص الموديل أو استخدام الافتراضي
   const selectedModel = modelIdFromCookie ? modelIdFromCookie.value : DEFAULT_CHAT_MODEL;
 
   return (
     <>
-      {/* تعديل وسام: هنا يتم استدعاء مكون الشات. 
-          لإضافة شعارك أو اسمك بشكل دائم، سنقوم بتمرير خصائص مخصصة إذا كان المكون يدعمها، 
-          أو يمكنك تعديل مكون الـ Chat نفسه لاحقاً من مجلد components.
-      */}
       <Chat
         autoResume={false}
         id={id}
@@ -44,7 +39,6 @@ async function NewChatPage() {
       />
       <DataStreamHandler />
       
-      {/* لمسة سيادية مخفية في الكود */}
       <footer className="fixed bottom-2 right-4 text-[10px] text-zinc-500 pointer-events-none">
         WESAM-PRO ENGINE V1.0 🛡️
       </footer>
