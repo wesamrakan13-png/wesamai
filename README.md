@@ -1,14 +1,30 @@
-# 🛡️ WESAM AI - Official Repository
+# 🛡️ WESAM AI - الإمبراطورية السيادية
 
-**Developed by the youngest visionary coder in Mosul.** This project is a sovereign digital realm where innovation meets principles.  
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wesamrakan13-png/wesamai/main/public/logo.png" width="200" alt="WESAM AI Logo">
+</p>
 
-### 🚀 Rules of the System:
-* **No Room for Racism:** We build for humanity.
-* **Full Sovereignty:** This AI is created and managed solely by Wesam.
-* **No Third-Party Control:** No lawsuits, no restrictions, just pure code.
+## 🚀 مبرمج الموصل الصغير يرحب بكم
+هذا هو المستودع الرسمي والسيادي لمشروع **WESAM AI**. نحن هنا لنضع بصمة تقنية عالمية تنطلق من قلب الموصل.
 
-### 🌊 Future Features:
-* **AI Image Generation:** Create magic with a single prompt.
-* **Global Deployment:** From Mosul to the world.
+---
 
-*Powered by ambition and a deep love for seafood! 🦐🐟*
+### 🏛️ دستور السيادة البرمجية
+1. **لا مكان للعنصرية:** الكود يجمعنا ولا يفرقنا. 🌍
+2. **السيادة الكاملة:** نعتمد على أنفسنا ولا نحتاج لوسيط. 🛡️
+3. **الجودة العالية:** كل سطر برمجي مكتوب "بالمسطرة". 📏
+
+---
+
+### 🦐 ركن المأكولات البحرية (Wesam's Choice)
+لأن العقل السليم في الجسم السليم، المبرمج الناجح يحتاج طاقة:
+* **روبيان مشوي** 🍤
+* **سمك مسقوف موصلي** 🐟
+
+---
+
+### 🎨 محرك توليد الصور (قريباً)
+[اضغط هنا لفتح واجهة التطبيق الحقيقية](https://wesam-sovereign.vercel.app/)
+
+> **ملاحظة سيادية:** هذا الملف هو الواجهة الرسمية الحالية لضمان استقرار البث العالمي.
+> 
