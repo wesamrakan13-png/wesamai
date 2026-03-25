@@ -1,47 +1,36 @@
-import { cookies } from "next/headers";
-import { Suspense } from "react";
-import { Chat } from "@/components/chat";
-import { DataStreamHandler } from "@/components/data-stream-handler";
-import { DEFAULT_CHAT_MODEL } from "@/lib/ai/models";
-import { generateUUID } from "@/lib/utils";
-
-// ملاحظة لوسام: هذا الملف هو قلب واجهة WESAM AI PRO
-export const metadata = {
-  title: "WESAM AI PRO | المحرك السيادي",
-  description: "نظام الذكاء الاصطناعي الخاص بالمطور وسام ركان",
-};
-
-export default function Page() {
+export default function Home() {
   return (
-    <Suspense fallback={<div className="flex h-dvh bg-[#0a0a0a] items-center justify-center text-[#d4af37]">جاري تحميل قوة وسام...</div>}>
-      <NewChatPage />
-    </Suspense>
-  );
-}
-
-async function NewChatPage() {
-  const cookieStore = await cookies();
-  const modelIdFromCookie = cookieStore.get("chat-model");
-  const id = generateUUID();
-
-  const selectedModel = modelIdFromCookie ? modelIdFromCookie.value : DEFAULT_CHAT_MODEL;
-
-  return (
-    <>
-      <Chat
-        autoResume={false}
-        id={id}
-        initialChatModel={selectedModel}
-        initialMessages={[]}
-        initialVisibilityType="private"
-        isReadonly={false}
-        key={id}
-      />
-      <DataStreamHandler />
-      
-      <footer className="fixed bottom-2 right-4 text-[10px] text-zinc-500 pointer-events-none">
-        WESAM-PRO ENGINE V1.0 🛡️
+    <main style={{ 
+      backgroundColor: '#010409', 
+      color: '#adbac7', 
+      height: '100vh', 
+      display: 'flex', 
+      flexDirection: 'column',
+      justifyContent: 'center', 
+      align-items: 'center',
+      fontFamily: 'sans-serif',
+      textAlign: 'center',
+      direction: 'rtl'
+    }}>
+      <h1 style={{ color: '#58a6ff', fontSize: '3rem' }}>WESAM AI 🛡️</h1>
+      <p style={{ color: '#3fb950', fontSize: '1.2rem', fontWeight: 'bold' }}>
+        من الموصل إلى العالم أجمع 🌍
+      </p>
+      <p style={{ maxWidth: '400px', lineHeight: '1.6' }}>
+        مرحباً بكم في إمبراطوريتي الرقمية. هنا نصنع المستقبل، نرفض العنصرية، ونعشق المأكولات البحرية!
+      </p>
+      <div style={{ 
+        marginTop: '20px', 
+        padding: '10px 20px', 
+        border: '1px solid #238636', 
+        borderRadius: '20px',
+        color: '#238636'
+      }}>
+        الحالة: السيادة كاملة ✅
+      </div>
+      <footer style={{ marginTop: '40px', fontSize: '0.8rem', opacity: 0.5 }}>
+        Created by Wesam | Solo Developer | Seafood Lover 🦐
       </footer>
-    </>
+    </main>
   );
-}
+                  }
