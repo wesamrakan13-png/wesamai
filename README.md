@@ -1,32 +1,47 @@
-# 🛡️ WESAM AI - نظام المحادثة السيادي
+# <p align="center">🛡️ WESAM-SOVEREIGN AI 🤖</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wesamrakan13-png/wesamai/main/public/logo.png" width="150" alt="WESAM AI">
+  <a href="https://wesamrakan13-png.github.io/wesamai/">
+    <img src="https://raw.githubusercontent.com/wesamrakan13-png/wesamai/main/public/logo.png" width="180" alt="WESAM AI Logo">
+  </a>
 </p>
 
-> **حالة النظام:** متصل (Online) 🟢 | **الموقع:** الموصل، العراق 🇮🇶
+<p align="center">
+    <strong>WESAM AI</strong> هو نظام دردشة سيادي مفتوح المصدر، مبني بأحدث تقنيات <strong>Next.js</strong> و <strong>Vercel AI SDK</strong>. من قلب الموصل، نبرمج المستقبل "بالمسطرة". 📏
+</p>
+
+<p align="center">
+  <a href="#features"><strong>المميزات</strong></a> ·
+  <a href="#chat-interface"><strong>واجهة الدردشة</strong></a> ·
+  <a href="#sovereign-code"><strong>الدستور البرمجي</strong></a> ·
+  <a href="https://wesam-sovereign.vercel.app/"><strong>تشغيل النظام</strong></a>
+</p>
 
 ---
 
-### 💬 جلسة محادثة مباشرة (Simulated Chat)
+## 🚀 المميزات السيادية (Features)
 
-**👤 المستخدم:** شلونك وسام؟ شنو أخبار المشروع؟
-> **🤖 WESAM AI:** هلا بيك يا بطل! المشروع شغال بالمسطرة 📏. إحنا هسة بمرحلة السيادة الكاملة، والكود صار أسرع وأقوى من قبل. الموصل اليوم صارت تصدر برمجيات للعالم! 🛡️✨
-
-**👤 المستخدم:** أكو عنصرية بالذكاء الاصطناعي مالتك؟
-> **🤖 WESAM AI:** مستحيل! نظامي مبني على دستور "لا للعنصرية". إحنا نجمع الكل تحت راية العلم والإبداع. 🌍🤝
-
----
-
-### 🧠 مهارات WESAM AI الحالية:.
-* [x] **تحليل الأخطاء:** حل المشاكل من جذورها.
-* [x] **كلام موزون:** الرد بذكاء وحكمة (مثل مبرمجه).
-* [ ] **توليد الصور:** (قيد التطوير - التحديث القادم).
+- **Next.js 15 App Router:** أداء خارق وتنقل سلس بين ملفات الكود.
+- **AI SDK Integration:** لسان فصيح يدعم (OpenAI, Google Gemini, Anthropic) عبر بوابة موحدة.
+- **Data Persistence:** ذاكرة حديدية لحفظ تاريخ المحادثات واسترجاعها "بالملي".
+- **Zero Racism Policy:** محرك أخلاقي يرفض العنصرية ويقدس العلم والإبداع. 🌍🛡️
 
 ---
 
-### 🚀 اسأل WESAM AI (تجريبي)
-*للمحادثة الحقيقية، تأكد من تفعيل الـ API في التحديث القادم.*
-[اضغط هنا لفتح بوابة المحادثة الكاملة](https://wesam-sovereign.vercel.app/)
+## 💬 واجهة الدردشة التجريبية (Chat Preview)
+
+**👤 الزائر:** وسام، شنو يعني "بالمسطرة"؟
+> **🤖 WESAM AI:** يعني الشغل المتقن اللي ما بيه ولا شعرة خطأ. يعني كود الموصل اللي ينافس السيليكون فالي بذكائه ونظافته. 📏✨
+
+**👤 الزائر:** الموقع ليش صار README؟
+> **🤖 WESAM AI:** لأن المبرمج الذكي يحل المشاكل من جذورها! استخدمنا الـ README كواجهة سيادية لضمان وصول العلم لكل الناس بأبسط وأقوى صورة. 🛠️🛡️
 
 ---
+
+## 🛠️ التشغيل المحلي (Running Locally)
+
+إذا تريد تشغل إمبراطورية وسام على حاسبتك:
+
+```bash
+pnpm install
+pnpm dev
